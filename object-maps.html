@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<script>
+  let list = new Map([
+    ["apples", 500],
+    ["bananas", 200],
+    ["mangoes", 300],
+    ["oranges", 100],
+  ]);
+  //The set() method can also be used to change existing Map values:
+  list.set("apples", 50);
+  //The get() method gets the value of a key in a Map:
+  list.get("apples");
+  //The size property returns the number of elements in a Map:
+  list.size;
+  //The delete() method removes a Map element:
+  list.delete("oranges");
+  //The clear() method removes all the elements from a Map:
+  list.clear;
+  //The has() method returns true if a key exists in a Map:
+  console.log("@SN ", list.has("mangoes"));
+
+  console.log("@SN ");
+</script>
